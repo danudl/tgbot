@@ -119,3 +119,8 @@ tg.RegexHandler = CustomRegexHandler
 
 if ALLOW_EXCL:
     tg.CommandHandler = CustomCommandHandler
+
+#remove begrond
+REM_BG_API_KEY = os.environ.get("8ZKrd8wZ18vTRFvWJzy4quqb", None)
+
+MAX_MESSAGE_SIZE_LIMIT = 4095
